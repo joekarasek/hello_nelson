@@ -1,3 +1,12 @@
+#section-team-photo {
+  max-width: 100%;
+  height: auto;
+
+  @media (min-width: 1200px) {
+    background-position: center;
+  }
+}
+
 #section-location {
   padding-bottom: 60px;
   padding-top: 60px;
