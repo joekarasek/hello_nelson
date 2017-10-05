@@ -27,7 +27,8 @@
       }
     }
     // max-height: 200px;
-    max-width: 262px;
+    max-width: 325px;
+    margin-bottom: 15px;
   }
 
   &__content {
@@ -43,7 +44,7 @@
   }
 
   &__map-link {
-    color: #6fba11;
+    color: #4d8704;
     text-decoration: underline;
     font-size: 20px;
     // letter-spacing: 1px;
@@ -109,8 +110,8 @@
   }
 
   &-btn {
-    margin-top: 25px;
-    box-shadow: 0 3px rgba(211, 90, 7, 1);
+    margin-top: 15px;
+    box-shadow: 0 3px rgba(77, 135, 4, 1);
   }
 
   .hours-table {
