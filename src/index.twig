@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+{% include '/organisms/head.twig' %}
+
+<body class="stretched">
+
+<!-- Document Wrapper
+============================================= -->
+<div id="wrapper" class="clearfix">
+
+    {% include 'organisms/header.twig' with
+    {
+    "transparent": false
+    }
+    %}
+
+    {% include 'organisms/marquee.twig' %}
+
+    <!-- Content
+  ============================================= -->
+
+    <div id="content" >
+         <div class="cta " id="cta-one">
+            <div class="container center">
+                <div class="flex-wrapper">
+                    <div class="cta__btn flex-wrapper__item">
+                        <a href="#" class="btn btn" data-target="#requestAppointmentForm" data-toggle="modal">Request an Appointment</a>
+                    </div>
+                    <div class="vertical-break">
+                    </div>
+                    <div class="cta__new flex-wrapper__item">
+                        <h5 class="cta__new-text allow-orphan">New Patient Hotline</h5>
+                        <h2 class="cta__new-number allow-orphan"><a href="tel:+18886169609" class="phone-number phone-number--new">(888)&nbsp;616-9609</a></h2>
+                    </div>
+                </div>
+                <p class="cta__existing-patient hidden-sm hidden-md hidden-lg">Existing Patients<br> <a href="tel:+4068835544" class="phone-number phone-number--existing">(406)&nbsp;883-5544</a></p>
+                <p class="cta__existing-patient hidden-xs">Existing Patients:  <a href="tel:+4068835544" class="phone-number phone-number--existing">(406)&nbsp;883-5544</a></p>
+            </div>
+        </div>
+
+        {% include 'organisms/about.twig' %}
+
+        {% include 'molecules/team__carousel.twig' %}
+
+        {% include 'organisms/specials--three-card.twig' %}
+
+         {% include 'molecules/cta__two-to-one.twig' with {
+            id: 'cta-two'
+        } %}
+
+         {% include 'organisms/reviews.twig' %}
+
+         {% include 'organisms/services.twig' %}
+
+         {% include 'organisms/insurance.twig' %}
+
+         {% include 'molecules/cta__two-to-one.twig' with {
+            id: 'cta-three'
+         } %}
+
+        {% include 'molecules/slab__care-credit.twig' %}
+
+        {% include 'organisms/forms.twig' %}
+
+        {% include 'organisms/location.twig' %}
+
+    </div>
+
+    <!-- Modals
+    ============================================= -->
+    {% include 'organisms/request-modal.twig' %}
+
+    <!-- Footer
+    ============================================= -->
+    {% include 'organisms/footer.twig' %}
+
+</div><!-- #wrapper end -->
+
+{% include 'organisms/foot.twig' %}
+
+</body>
+</html>

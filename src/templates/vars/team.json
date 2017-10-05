@@ -1,0 +1,56 @@
+{
+  "team": [
+    {
+      "name": "Michelle",
+      "carousel": true,
+      "modalTarget": "michelle",
+      "image": "michelle.jpg",
+      "title": "Office Manager",
+      "text": [
+        "I have lived in the Stayton/Sublimity area most of my life, and I attended St. Mary & Regis High School. Go Falcons & Rams!! I have been married to my husband Brian for 22 years & we have 2 adult children, son Colby, 22, and our daughter, Hadyn, 19. They are both in college, so we are newly crowned empty nesters! I love my job because I get to work with all the wonderful people from this community on a daily basis. It's so rewarding to be able to work in the community that you live in. I'm very blessed!"
+      ]
+    },
+    {
+      "name": "Katy",
+      "carousel": true,
+      "modalTarget": "katy",
+      "image": "katy.jpg",
+      "title": "Dental Assistant",
+      "text": [
+        "I have been a hygienist in the Willamette Valley for the past 20 years. I have enjoyed the opportunity to connect with many great people as team members and patients! I live in Lyons with my husband and 3 boys. We enjoy exploring the many beautiful areas Oregon has to offer as well as hanging out at home together."
+      ]
+    },
+    {
+      "name": "Alex",
+      "carousel": true,
+      "modalTarget": "alex",
+      "image": "alex.jpg",
+      "title": "Dental Assistant",
+      "text": [
+        "I joined Dr. Nelson's dental team in 2014, shortly after graduating from OIT. I really enjoy working in Stayton and getting to know members of the community. My husband and I live in Salem with our son. I love spending time with family and friends, as well as exploring our beautiful state."
+      ]
+    },
+    {
+      "name": "Charmane",
+      "carousel": true,
+      "modalTarget": "charmane",
+      "image": "charmane.jpg",
+      "title": "Dental Assistant",
+      "text": [
+        "I grew up in Phoenix AZ. I moved to Stayton, OR in 2000. I attended Linn-Benton Community College and I decided to pursue a career in dentistry. I love having the opportunity to work alongside patients to help them achieve the healthy, beautiful smiles they deserve and strive to provide a comfortable environment. Outside of the office I am happily married and we’re proud parents of two boys and a grandson. In my free time I love spending time with family and friends enjoying the outdoors, camping, fishing and relaxing. "
+      ]
+    },
+    {
+      "name": "Buffie",
+      "carousel": true,
+      "modalTarget": "buffie",
+      "image": "buffie.jpg",
+      "title": "Dental Assistant",
+      "text": [
+        "Hi I’m Buffie!",
+        "B.C. and I have been in the Stayton area for over 20 years and have a son, Cutler.",
+        "I enjoy working at our office where B.C. and our team provide the best service and technology that help our patients achieve their oral health goals."
+      ]
+    }
+  ]
+}
