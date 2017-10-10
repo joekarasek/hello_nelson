@@ -9,7 +9,8 @@
 
   // ======= Carousels =======
   HelloWorldDevsTysonSteele.marqueeCarousel({
-    autoplay: 6000,
+    // autoplay: 6000,
+    autoplay: false,
     effect: 'fade',
     speed: 500
   });
@@ -52,8 +53,8 @@
     items: 1,
     autoplay: true,
     navText: [
-      '<img src="assets/arrow-left.png">',
-      '<img src="assets/right-arrow.png">'
+      '<img src="assets/team-left.png">',
+      '<img src="assets/team-right.png">'
     ],
     responsive: {
       550: {
@@ -63,9 +64,7 @@
         items: 3
       },
       992: {
-        items: 4,
-        nav: false,
-        autoplay: false
+        items: 4
       }
     },
     margin: 15

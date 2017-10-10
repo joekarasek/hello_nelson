@@ -1,14 +1,28 @@
 #section-team-carousel {
   padding: 25px 0;
-  background-color: #e1eef6;
-  border-top: solid 5px white;
-  border-bottom: solid 5px white;
+  background-color: #eaf0f3;
 
   .heading {
-    color: #2e2e2e;
+    color: #157a9e;
+    line-height: 1;
+    margin-bottom: 0;
   }
 
   .owl-carousel .owl-nav [class*=owl-] {
-    top: 35%;
+    top: 45%;
+  }
+
+  .owl-carousel .owl-nav [class*=owl-],
+  .owl-carousel:hover .owl-nav .owl-next {
+    opacity: 1;
+  }
+
+  .full-width-wrapper {
+    position: relative;
+  }
+
+  .team--full-width,
+  .owl-carousel {
+    position: static !important;
   }
 }
