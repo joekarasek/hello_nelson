@@ -1,7 +1,7 @@
 module.exports = {
   browserSync: {
     enabled: true,
-    port: 3050,
+    port: 3055,
     watchFiles: [],
     baseDir: 'build/',
     startPath: '/',

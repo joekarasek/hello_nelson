@@ -2,7 +2,7 @@
 ============================================= -->
 <div id="mobile-background" class="hidden-md hidden-lg">
     <a href="#" data-scrollto="#section-specials" data-offset="0">
-        <img src="/assets/slides/slide-mobile.jpg" style="width:100%;height:auto;" alt="{{ mainDoctor }}">
+        <img src="/assets/slides/mobile-slide.jpg" style="width:100%;height:auto;" alt="{{ mainDoctor }}">
     </a>
 </div>
 
@@ -16,9 +16,12 @@
             ============================================= -->
              <div class="swiper-slide slide1" style="background: url('assets/slides/slide1.jpg') 50% 50% no-repeat; background-size: cover;">
                 <div class="container clearfix">
-                    <div class="slider-caption slider-caption-right">
-                        <img src="/assets/slides/slide1-text.svg" alt="Creating Great Smiles at DeFont Family Dental" class="slide1-svg-text">
-                        <a href="#" class="btn btn--style-two btn-slide-one" data-offset="92" data-scrollto="#section-specials">NEW PATIENT OFFERS</a>
+                    <div class="slider-caption slider-caption-left">
+                        <img src="/assets/slides/slide-1-text.svg" alt="Changing Stayton one smile at a time" class="slide1-svg-text">
+                        <div class="flex-wrapper">
+                            <h5 class="text-byline">Now Welcoming<br>New Patients!</h5>
+                            <a href="#" class="btn btn--style-two btn-slide-one" data-offset="98" data-scrollto="#section-specials">Learn More</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -27,20 +30,28 @@
             ============================================= -->
              <div class="swiper-slide slide2" style="background: url('assets/slides/slide2.jpg') 50% 50% no-repeat; background-size: cover;">
                 <div class="container clearfix">
-                    <div class="slider-caption slider-caption-right">
-                        <img src="/assets/slides/slide2-text.svg" alt="The Right Dentist for your Family. Five Star Reviews. 'Dr. Nelson is awesome with children!' -Courtney" class="slide__image">
-                        <a href="#" class="btn btn--style-two btn-slide-two" data-offset="98" data-scrollto="#section-reviews">READ MORE REVIEWS</a>
+                    <div class="slider-caption slider-caption-left">
+                        <img src="/assets/slides/slide2-text.svg" alt="The Right Dentist for your Family. Five Star Reviews. 'Loved my dental experience with Dr. Nelson and his staff! They made me feel welcome and more importantly, comfortable!' -Donna" class="slide__image">
+
+                        <div class="flex-wrapper">
+                            <img src="/assets/slides/stars.png" alt="5 stars" class="stars">
+                            <a href="#" class="btn btn--style-two btn-slide-two" data-offset="98" data-scrollto="section-reviews">Learn More</a>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <!-- Slide
             ============================================= -->
-             <div class="swiper-slide slide3" style="background: url('assets/slides/slide3.jpg') 50% 50% no-repeat; background-size: cover;">
+            <div class="swiper-slide slide3" style="background: url('assets/slides/slide3.jpg') 50% 50% no-repeat; background-size: cover;">
                 <div class="container clearfix slide-content">
-                    <div class="slider-caption slider-caption-right">
+                    <div class="slider-caption slider-caption-left">
                         <img src="/assets/slides/slide3-text.svg" alt="No Insurance? Our Patients Don't Need It! Get your preventive care for a low monthly fee." class="slide__image">
-                        <a href="#" class="btn btn--style-two btn-slide-three" data-offset="98" data-scrollto="#section-insurance">Learn more</a>
+
+                        <div class="flex-wrapper">
+                            <h5 class="text-byline">Join our Membership Club and get your<br>preventive care for a low monthly fee</h5>
+                            <a href="#" class="btn btn--style-two btn-slide-three" data-offset="98" data-scrollto="#section-insurance">Learn More</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -48,4 +59,5 @@
         </div>
     </div>
 </div>
+
  {% include 'atoms/down-arrow.twig' %} 
