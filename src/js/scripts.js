@@ -97,5 +97,10 @@
     $('#gallery-target').click();
   });
 
+  $('.galleryCard').click( function() {
+    var pointer = $(this).attr('data-ts-pointer');
+    $('[data-ts-target=' + pointer + ']').click();
+  });
+
 }(jQuery, HelloWorldDevsTysonSteele));
 
