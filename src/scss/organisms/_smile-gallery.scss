@@ -1,14 +1,26 @@
 #section-gallery {
   padding: 25px 0;
 
+  .heading {
+    &__title {
+      margin-bottom: 0;
+    }
+
+    &__byline {
+      color: #353535;
+      padding-bottom: 15px;
+    }
+  }
+
   .galleryCard {
     &__title {
       margin-bottom: 0;
       color: #2e4a6f;
     }
 
-    &__byline {
+    &__learnMore {
       color: #4f8e00;
+      text-decoration: underline;
     }
   }
 
