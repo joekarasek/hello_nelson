@@ -1,7 +1,7 @@
 #header.full-header {
   $c-header: #fff;
   $c-menu-trigger: #444;
-  $nav-font: $ff-bree;
+  $nav-font: $ff-lato;
 
   width: 100%;
   height: 100px;
@@ -17,25 +17,18 @@
   #primary-menu > ul {
     margin-right: 0;
     border-right: none;
-    padding: 0;
-    z-index: -1;
-    background-color: #fff;
 
-    @include nav-color(#2e2e2e, 400);
-    @include nav-color(#2e2e2e, 400, 1);
-    @include nav-color(#2e2e2e, 400, 2);
-    @include nav-color(#2e2e2e, 400, 3);
-
-    &.hidden-md {
-      padding-top: 10px !important;
-    }
+    @include nav-color(#666, 400);
+    @include nav-color(#157a9e, 700, 1);
+    @include nav-color(#3caaa8, 700, 2);
+    @include nav-color(#50709a, 700, 3);
   }
 
   #primary-menu-trigger {
     font-size: 30px;
     pointer-events: auto;
     float: left;
-    top: 0;
+    top: 15px;
   }
 
   #header-wrap {
@@ -57,12 +50,6 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    transform: translateY(30%);
-
-    div {
-      background-color: #fff;
-      border-radius: 50%;
-    }
   }
 
   .icon-reorder {
@@ -70,8 +57,8 @@
   }
 
   #logo img {
-    padding: 2px;
-    padding-left: 5px;
+    // padding: 2px;
+    // padding-left: 5px;
     max-width: 240px;
   }
 
@@ -79,7 +66,7 @@
     #logo {
       a {
         text-align: right;
-        margin-left: 30px;
+        margin-left: 5px;
         margin-right: auto;
         padding-right: 30px;
       }
@@ -92,6 +79,7 @@
     }
 
     #primary-menu-trigger {
+      line-height: 70px;
       right: 10px;
       left: auto;
       color: #343b42;
@@ -99,42 +87,45 @@
   }
 
   @media (min-width: 992px) {
-    .notJustAnEmptyDiv {
-      width: 160px;
-      height: 150px;
-    }
-
-    .logo-image-wrapper {
-      width: 160px;
-      position: relative;
-
-      div {
-        background-color: #fff;
-        border-radius: 50%;
-        position: absolute;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        top: -50px;
-
-        img {
-          position: absolute;
-          width: 88%;
-          z-index: 10;
-          margin-top: 13px;
-        }
-      }
-    }
-
     :not(.static-sticky) #primary-menu {
       height: 100%;
-      width: 100%;
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: flex-start;
 
       ul li {
-        padding: 0;
+        padding-top: 38px;
+        padding-bottom: 38px;
+
+        &:first-child:hover,
+        &.current:first-child {
+          background-color: #157a9e;
+
+          a {
+            color: #fff !important;
+            text-decoration: none !important;
+          }
+        }
+
+        &:nth-child(2):hover,
+        &.current:nth-child(2) {
+          background-color: #3caaa8;
+
+          a {
+            color: #fff !important;
+            text-decoration: none !important;
+          }
+        }
+
+        &:nth-child(3):hover,
+        &.current:nth-child(3) {
+          background-color: #50709a;
+
+          a {
+            color: #fff !important;
+            text-decoration: none !important;
+          }
+        }
       }
     }
   }
@@ -146,22 +137,23 @@
 
   #primary-menu ul li {
     @media screen and (max-width: $width-md) {
-      border-top: 1px solid #2e2e2e;
+      border-top: 1px solid #157a9e;
       background-color: #fff;
+      padding-left: 30px;
 
       &:last-child {
-        border-bottom: 1px solid #2e2e2e;
+        border-bottom: 1px solid #06b7d7;
       }
     }
   }
 
   :not(.static-sticky) #primary-menu ul > li > a {
     // letter-spacing: 1px;
-    font-size: 14px;
-    padding: 0 6px;
+    font-size: 13px;
+    padding: 0 4px;
     text-transform: none;
     transition: padding 0.3s ease;
-    font-family: $ff-bree;
+    font-family: $ff-lato;
 
     &:hover {
       text-decoration: underline !important;
@@ -169,7 +161,7 @@
 
     @media (min-width: 1200px) {
       font-size: 16px;
-      padding: 0 10px;
+      padding: 0 7px;
     }
   }
 }
@@ -182,7 +174,7 @@
   transition: height 0.4s ease, opacity 0.3s ease;
 
   @media (max-width: $width-md) {
-    height: 50px !important;
+    height: 100px !important;
   }
 }
 
