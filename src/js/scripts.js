@@ -67,6 +67,26 @@
     },
     margin: 15
   });
+  HelloWorldDevsTysonSteele.pyramidCarousel('.js-smile-gallery', {
+    items: 1,
+    autoplay: true,
+    navText: [
+      '<img src="assets/team-left.png">',
+      '<img src="assets/team-right.png">'
+    ],
+    responsive: {
+      550: {
+        items: 2
+      },
+      768: {
+        items: 3
+      },
+      992: {
+        items: 4
+      }
+    },
+    margin: 15
+  });
   HelloWorldDevsTysonSteele.updateCopyright('.js-copyright-year');
 
   // ======= Google Maps =======
