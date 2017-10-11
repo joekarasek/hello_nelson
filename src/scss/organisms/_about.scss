@@ -1,21 +1,23 @@
 #section-about {
   padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #dee5d9;
+  padding-bottom: 35px;
+  margin-bottom: -2px;
+  margin-top: 50px;
+  // background-color: #dee5d9;
 
   @media (min-width: 992px) {
-    background-image: url('/assets/doc-bio.jpg');
-    background-size: cover;
+    background-image: url('/assets/treesBG-1.svg');
+    // background-size: cover;
     background-repeat: no-repeat;
-    background-position: top right;
+    background-position: bottom center;
   }
 
   .heading__title {
-    color: #2e2e2e;
-    line-height: 1.5;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    text-align: center;
+    color: #007ca2;
+    line-height: 1.2;
+    margin-bottom: 0;
+    text-align: left;
+    margin-top: 20px;
   }
 
   .btn-link {
@@ -31,16 +33,15 @@
     &__name {
       color: #2e2e2e;
       font-family: $ff-lato;
-      font-weight: 900;
       margin-bottom: 10px;
-      padding-top: 20px;
+      padding-top: 5px;
 
-      @include font-size(32px, 28px, 26px, 26px, 24px);
+      @include font-size(28px, 28px, 26px, 26px, 24px);
 
       &--title {
         color: #2e2e2e;
 
-        @include font-size(27px, 26px, 24px, 24px, 22px);
+        @include font-size(28px, 28px, 26px, 26px, 24px);
       }
     }
 

@@ -9,8 +9,7 @@
 
   // ======= Carousels =======
   HelloWorldDevsTysonSteele.marqueeCarousel({
-    autoplay: false,
-    // autoplay: 6000,
+    autoplay: 6000,
     effect: 'fade',
     speed: 500
   });
@@ -40,11 +39,10 @@
     slideBy: 1,
     responsive: {
       550: {
-        items: 3,
-        autoplay: false
+        items: 3
       },
       992: {
-        items: 3,
+        items: 4,
         autoplay: false
       }
     }
