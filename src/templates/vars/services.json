@@ -11,16 +11,6 @@
     },
     {
       "featured": false,
-      "title": "Crowns & Bridges",
-      "titleMobile": "Crowns & Bridges",
-      "titleFull": "Porcelain Crowns & Bridges",
-      "image": "crowns",
-      "modalTarget": "crowns",
-      "text": ["Protect and keep badly decayed or fractured teeth while maintaining a beautiful smile. Made to perfectly match the shape and shade of your other teeth, they’re durable, strong, and undetectable.",
-        "Crowns should be placed before the tooth is so decayed that it may fracture. This can often help prevent the expense of root canal therapy in the future. If a tooth is too damaged to have a crown applied, a porcelain bridge may be a good alternative."]
-    },
-    {
-      "featured": false,
       "title": "Veneers",
       "titleMobile": "Veneers",
       "titleFull": "Veneers",
@@ -28,16 +18,6 @@
       "modalTarget": "veneers",
       "text": ["Veneers are very thin porcelain pieces that are custom made to adhere directly to the front of teeth without grinding or shaving. Transform your smile without drilling on your natural teeth!",
       "In the hands of a highly skilled dentist, porcelain laminates can provide you with an incredibly natural, beautiful smile. They are virtually undetectable and can dramatically improve your appearance. They are durable and long-lasting when compared to other cosmetic treatments."]
-    },
-    {
-      "featured": false,
-      "title": "Smile Whitening",
-      "titleMobile": "Whitening",
-      "titleFull": "Smile Whitening",
-      "image": "whitening",
-      "modalTarget": "whitening",
-      "text": ["Many everyday things like coffee, tea and wine can significantly dull teeth. Smile-whitening enables us to significantly brighten your smile for that dazzling white smile you deserve.",
-      "Plastic whitening trays will be made from models of your teeth. You will then place a special whitening gel in each tray and wear the trays in your mouth for several hours per day. (Many patients wear their trays after dinner and before bed.) A significant change in tooth color is usually seen in just four to six weeks."]
     },
     {
       "featured": false,
@@ -50,15 +30,6 @@
     },
     {
       "featured": false,
-      "title": "Cancer Screening",
-      "titleMobile": "Cancer Screening",
-      "titleFull": "Oral Cancer Screening",
-      "image": "cancerScreening",
-      "modalTarget": "cancerScreening",
-      "text": ["To detect oral cancer at a curable stage, we routinely screen our patients to ensure you’re healthy. Since early detection is the key to increasing the odds of fighting this cancer, make an appointment today."]
-    },
-    {
-      "featured": false,
       "title": "Care for the Whole Family ",
       "titleMobile": "Family Care",
       "titleFull": "Care for the Whole Family",
@@ -66,6 +37,24 @@
       "modalTarget": "family",
       "text": ["From toddlers to the elderly, our skilled dental team is familiar with the unique needs of every patient, no matter their age. Our goal is to help them develop great oral habits that will last them a lifetime.",
         "Join us today and discover how our practice can help treat your entire family."]
+    },
+    {
+      "featured": false,
+      "title": "Tooth Colored Restorations",
+      "titleMobile": "Restorations",
+      "titleFull": "Tooth Colored Restorations",
+      "image": "restorations",
+      "modalTarget": "restorations",
+      "text": ["The common silver filling contains mercury. Dr. Nelson uses the highest-quality biocompatible, tooth-colored restorations to create healthy, beautiful smiles.​ Since the composite material adheres directly to the tooth enamel, less preparation of the tooth is required before using it. This means it is more durable and provides a more natural-looking result."]
+    },
+    {
+      "featured": false,
+      "title": "Cosmetic Dentures",
+      "titleMobile": "Dentures",
+      "titleFull": "Cosmetic Dentures",
+      "image": "dentures",
+      "modalTarget": "dentures",
+      "text": ["A well made denture is not only comfortable and functions properly; it also allows the wearer to smile with confidence, knowing that their smile is no different than it would be with natural teeth. Creating a cosmetic denture is really an art in the hands of a skilled dentist like Dr. Nelson."]
     }
   ]
 }
