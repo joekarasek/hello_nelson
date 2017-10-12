@@ -27,6 +27,13 @@
     text-decoration: underline;
   }
 
+  .about-image-fix {
+    @media (min-width: 767px) {
+      height: 700px;
+      margin-top: 15px;
+    }
+  }
+
   .main {
     margin: -40px 0 0;
 
@@ -51,18 +58,5 @@
 
       @include font-size(16px, 15px, 16px, 14px, 12px);
     }
-
-    // @media (min-width: 768px) {
-    //   margin: -40px 0;
-
-    //   &__name {
-    //     padding-top: 0;
-    //   }
-
-    //   .row {
-    //     display: flex;
-    //     align-items: center;
-    //   }
-    // }
   }
 }
