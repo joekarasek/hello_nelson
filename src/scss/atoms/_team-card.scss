@@ -6,13 +6,11 @@
     display: inline-block;
   }
 
-  &__text {
-    padding: 10px 0 15px 15px;
-  }
-
   &__name {
-    margin-bottom: 0;
     color: #4e4e4e;
+    margin-bottom: 0;
+    margin-top: 15px;
+    line-height: 1;
   }
 
   &__read-more {
