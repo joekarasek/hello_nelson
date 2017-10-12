@@ -12,6 +12,10 @@
   .xs-text-beneath {
     padding-bottom: 20px;
     margin-top: -10px;
+
+    @media (min-width: 768px) {
+      height: 280px;
+    }
   }
 
   .white {
@@ -24,6 +28,11 @@
 
   .cerec-p-width {
     max-width: 45%;
+    padding-bottom: 5px;
+
+    @media (min-width: 1200px) {
+      padding-bottom: 30px;
+    }
   }
 
   .implant-p-width {
@@ -110,11 +119,11 @@
 
   .card__image--fix {
     @media screen and (min-width: 992px) {
-      height: 433px;
+      height: 443px;
     }
 
     @media screen and (min-width: 1200px) {
-      height: 530px;
+      height: 540px;
     }
   }
 }
