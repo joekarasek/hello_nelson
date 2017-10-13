@@ -1,11 +1,11 @@
 #section-about {
-  padding-top: 30px;
   padding-bottom: 35px;
   margin-bottom: -2px;
-  margin-top: 50px;
+  padding-top: 30px;
   // background-color: #dee5d9;
 
   @media (min-width: 992px) {
+    margin-top: 10px;
     background-image: url('/assets/treesBG-1.svg');
     // background-size: cover;
     background-repeat: no-repeat;
@@ -14,10 +14,16 @@
 
   .heading__title {
     color: #007ca2;
-    line-height: 1.2;
-    margin-bottom: 0;
     text-align: left;
-    margin-top: 20px;
+    margin-bottom: 0;
+    line-height: 1;
+    margin-top: 0;
+
+    @media (min-width: 992px) {
+      margin-bottom: 0;
+      line-height: 1.2;
+      margin-top: 20px;
+    }
   }
 
   .btn-link {
@@ -28,15 +34,13 @@
   }
 
   .about-image-fix {
-    @media (min-width: 767px) {
+    @media (min-width: 768px) {
       height: 700px;
       margin-top: 15px;
     }
   }
 
   .main {
-    margin: -40px 0 0;
-
     &__name {
       color: #2e2e2e;
       font-family: $ff-lato;

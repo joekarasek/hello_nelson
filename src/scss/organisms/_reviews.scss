@@ -1,5 +1,5 @@
 #section-reviews {
-  background-color: #000;
+  background-color: #157a9e;
   border-bottom: none;
   padding-bottom: 45px;
 
@@ -60,5 +60,7 @@
 
   .bf-spn {
     font-family: $ff-lato;
+
+    @include font-size(14px, 14px, 14px, 14px, 12px);
   }
 }

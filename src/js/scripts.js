@@ -40,10 +40,6 @@
     responsive: {
       550: {
         items: 3
-      },
-      992: {
-        items: 4,
-        autoplay: false
       }
     }
   });

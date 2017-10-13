@@ -93,9 +93,14 @@
       justify-content: center;
       align-items: flex-start;
 
+      ul {
+        height: 100%;
+      }
+
       ul li {
-        padding-top: 38px;
-        padding-bottom: 38px;
+        display: flex;
+        align-items: center;
+        height: 100%;
 
         &:first-child:hover,
         &.current:first-child {

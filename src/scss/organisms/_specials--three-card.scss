@@ -32,6 +32,8 @@
       font-weight: 900;
       margin-bottom: 5px;
       text-shadow: 3px 3px 5px #000;
+
+      @include font-size(32px, 30px, 27px, 28px, 19px);
     }
   }
 
@@ -87,8 +89,8 @@
       border: solid 3px white;
       border-radius: 50%;
       color: white;
-      font-weight: 700;
-      font-family: $ff-open;
+      font-weight: 900;
+      font-family: $ff-lato;
       font-size: 80px;
       font-style: normal;
 
@@ -117,7 +119,7 @@
     }
 
     &__copy {
-      color: #000;
+      color: #424242;
       font-family: $ff-lato;
       line-height: 1.4;
       margin-bottom: 70px;
@@ -126,7 +128,7 @@
 
     &__codes {
       padding-top: 30px;
-      color: #575757;
+      color: #000;
       font-size: 14px;
       // margin-bottom: 65px;
       position: absolute;
