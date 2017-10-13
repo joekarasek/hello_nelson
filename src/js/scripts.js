@@ -9,8 +9,7 @@
 
   // ======= Carousels =======
   HelloWorldDevsTysonSteele.marqueeCarousel({
-    // autoplay: 6000,
-    autoplay: false,
+    autoplay: 6000,
     effect: 'fade',
     speed: 500
   });
@@ -40,16 +39,31 @@
     slideBy: 1,
     responsive: {
       550: {
-        items: 3,
-        autoplay: false
-      },
-      992: {
-        items: 3,
-        autoplay: false
+        items: 3
       }
     }
   });
   HelloWorldDevsTysonSteele.pyramidCarousel('.js-team-carousel', {
+    items: 1,
+    autoplay: true,
+    navText: [
+      '<img src="assets/team-left.png">',
+      '<img src="assets/team-right.png">'
+    ],
+    responsive: {
+      550: {
+        items: 2
+      },
+      768: {
+        items: 3
+      },
+      992: {
+        items: 4
+      }
+    },
+    margin: 15
+  });
+  HelloWorldDevsTysonSteele.pyramidCarousel('.js-smile-gallery', {
     items: 1,
     autoplay: true,
     navText: [
@@ -77,6 +91,11 @@
   $('#gallery-btn').click( function(e) {
     e.preventDefault();
     $('#gallery-target').click();
+  });
+
+  $('.galleryCard').click( function() {
+    var pointer = $(this).attr('data-ts-pointer');
+    $('[data-ts-target=' + pointer + ']').click();
   });
 
 }(jQuery, HelloWorldDevsTysonSteele));

@@ -9,8 +9,7 @@ button.btn {
   text-transform: uppercase;
   border-radius: 8px;
   box-shadow: 0 3px rgba(77, 135, 4, 1);
-
-  @include font-size(17px, 16px, 16px, 15px, 14px);
+  font-size: 14px;
 
   &:hover,
   &:focus {
@@ -23,16 +22,15 @@ button.btn {
 
   &.btn--style-two {
     background: none;
-    background-color: #6fba11;
-    color: #fff;
+    background-color: #fff;
+    color: #6fba11;
     font-family: $ff-lato;
+    border: solid 1px #6fba11;
     // box-shadow: 0 3px #457613;
-
-    @include font-size(16px, 16px, 15px, 14px, 13px);
 
     &:hover,
     &:focus {
-      background-color: darken(#6fba11, 10%);
+      background-color: darken(#fff, 10%);
       // box-shadow: 0 3px #457613;
     }
   }
@@ -43,8 +41,6 @@ button.btn {
     border: solid 2px #fff;
     color: #44494b;
     // box-shadow: 0 3px rgba(25, 50, 82, 1);
-
-    @include font-size(16px, 16px, 14px, 14px, 14px);
 
     &:hover,
     &:focus {

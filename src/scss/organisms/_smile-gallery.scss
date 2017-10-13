@@ -1,46 +1,50 @@
 #section-gallery {
-  background-color: #b6f2f9;
-  padding: 45px 0;
-  background-image: radial-gradient(circle at center, #fff, #b5f3fa);
-  border-bottom: solid 2px #fff;
+  padding: 25px 0;
 
-  .gallery__button {
-    text-align: center;
-  }
-
-  @media (min-width: 768px) {
-    background-image: none;
-    padding: 0;
-    position: relative;
-
-    > img {
-      margin: -50px 0;
-    }
-
-    .flex-wrapper {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-
-    .gallery__button {
-      text-align: right;
-    }
-  }
-
-  .gallery {
+  .heading {
     &__title {
-      color: #4b382c;
-      font-family: $ff-dancing;
-      font-weight: 400;
-      margin-bottom: 10px;
-
-      @include font-size(90px, 72px, 55px, 36px, 50px);
+      margin-bottom: 0;
+      margin-top: 15px;
+      line-height: 1;
     }
+
+    &__byline {
+      color: #353535;
+      padding-bottom: 15px;
+    }
+  }
+
+  .galleryCard {
+    &__title {
+      margin-bottom: 7px;
+      margin-top: 15px;
+      line-height: 1;
+      color: #2e4a6f;
+    }
+
+    &__learnMore {
+      color: #4f8e00;
+      text-decoration: underline;
+      line-height: 1;
+      margin-bottom: 0;
+    }
+  }
+
+  .owl-carousel .owl-nav [class*=owl-] {
+    top: 45%;
+  }
+
+  .owl-carousel .owl-nav [class*=owl-],
+  .owl-carousel:hover .owl-nav .owl-next {
+    opacity: 1;
+  }
+
+  .full-width-wrapper {
+    position: relative;
+  }
+
+  .gallery--full-width,
+  .owl-carousel {
+    position: static !important;
   }
 }

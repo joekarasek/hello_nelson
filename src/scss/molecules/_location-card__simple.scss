@@ -26,9 +26,13 @@
         background: none;
       }
     }
-    // max-height: 200px;
-    max-width: 325px;
+
     margin-bottom: 15px;
+    max-width: 100%;
+
+    @media (min-width: 480px) {
+      max-width: 325px;
+    }
   }
 
   &__content {
@@ -56,11 +60,12 @@
 
   &__new-patient-text {
     color: #000;
-    font-size: 24px;
     margin-bottom: 0;
     line-height: 1;
     font-family: $ff-lato;
     letter-spacing: -0.97px;
+
+    @include font-size(24px, 24px, 24px, 24px, 23px);
   }
 
   &__new-patient-number {

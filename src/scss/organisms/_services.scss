@@ -9,6 +9,36 @@
     }
   }
 
+  .xs-text-beneath {
+    padding-bottom: 20px;
+    margin-top: -10px;
+
+    @media (min-width: 768px) {
+      height: 280px;
+    }
+  }
+
+  .white {
+    color: #fff;
+    line-height: 1.1;
+    font-size: 16px;
+    padding-top: 7px;
+    margin-bottom: 10px;
+  }
+
+  .cerec-p-width {
+    max-width: 45%;
+    padding-bottom: 5px;
+
+    @media (min-width: 1200px) {
+      padding-bottom: 30px;
+    }
+  }
+
+  .implant-p-width {
+    max-width: 90%;
+  }
+
   .card__text {
     position: absolute;
     bottom: 0;
@@ -17,67 +47,83 @@
     padding: 10px 0;
   }
 
-  .feature__title {
-    color: #fff;
-    font-family: $ff-bree;
-    margin-bottom: 0;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-
-    @include font-size(44px, 34px, 30px, 22px, 20px);
-  }
-
-  .card {
-    margin-bottom: 20px;
-
-    &__title {
-      color: #fff;
-      font-family: $ff-bree;
-      line-height: 1;
-      margin-bottom: 10px;
-      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-
-      @include font-size(34px, 24px, 20px, 22px, 20px);
-    }
-  }
-
-  .hr {
-    margin: 5px;
-    width: 190px;
+  .top-right {
+    text-align: right;
+    padding-right: 45px;
 
     @media (min-width: 768px) {
-      width: 340px;
+      bottom: 190px;
     }
 
     @media (min-width: 992px) {
-      width: 390px;
+      bottom: 100px;
     }
 
     @media (min-width: 1201px) {
-      width: 500px;
+      bottom: 110px;
+    }
+  }
+
+  .center-left {
+    @media (min-width: 768px) {
+      bottom: 110px;
+      padding-left: 65px;
+    }
+
+    @media (min-width: 992px) {
+      bottom: 50px;
+      padding-left: 25px;
+    }
+
+    @media (min-width: 1201px) {
+      bottom: 80px;
+      padding-left: 35px;
+    }
+  }
+
+  .feature__title {
+    color: #fff;
+    font-family: $ff-mont;
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: 0;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+
+    @include font-size(40px, 30px, 40px, 40px, 30px);
+  }
+
+  .card {
+    margin-bottom: 30px;
+
+    &__title {
+      color: #fff;
+      font-family: $ff-mont;
+      line-height: 1;
+      margin-bottom: 0;
+      font-weight: 900;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+
+      @include font-size(30px, 24px, 40px, 40px, 30px);
     }
   }
 
   .card__link {
     text-decoration: underline !important;
-    font-style: italic;
     font-weight: 700;
-    color: #8cd211;
+    color: #ff9a00;
     margin-bottom: 0;
+    font-size: 18px;
 
-    @include font-size(17px, 16px, 14px, 15px, 14px);
+    // @include font-size(17px, 16px, 14px, 15px, 14px);
   }
 
   .card__image--fix {
-    @media screen and (min-width: 768px) {
-      height: 228.5px;
-    }
-
     @media screen and (min-width: 992px) {
-      height: 300px;
+      height: 443px;
     }
 
     @media screen and (min-width: 1200px) {
-      height: 364.5px;
+      height: 540px;
     }
   }
 }
